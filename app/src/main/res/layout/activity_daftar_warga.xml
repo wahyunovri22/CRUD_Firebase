@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.cia.esuratuser.Activity.DaftarWargaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_nama_warga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:met_textColor="#fff"
+            app:met_textColorHint="#fff"
+            android:padding="10dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="@string/nama"
+            android:hint="@string/nama"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_rt_warga"
+            app:met_textColor="#fff"
+            app:met_textColorHint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:met_floatingLabel="highlight"
+            android:padding="10dp"
+            app:met_floatingLabelText="RT"
+            android:hint="RT"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_rw_warga"
+            app:met_textColor="#fff"
+            app:met_textColorHint="#fff"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="RW"
+            android:hint="RW"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/image_profil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:background="#fff"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/btn_pilih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unggah"
+                android:textStyle="bold"
+                android:textColor="@color/colorBackground"
+                android:background="@color/colorPrimaryNew"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/image_profil"
+                android:layout_toEndOf="@+id/image_profil"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_daftar_warga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryNew"
+            android:textColor="@color/colorBackground"
+            android:text="@string/btn_daftar"/>
+    </LinearLayout>
+
+</ScrollView>

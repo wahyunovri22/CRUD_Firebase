@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lihatWarga"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Lihat Warga" />
+        <item
+            android:id="@+id/lihatSurat"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Lihat Surat" />
+        <item
+            android:id="@+id/keluar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Keluar" />
+    </group>
+
+    <item android:title="© Semicolon">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EsuratUser</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="uploud_foto">uploud foto anda</string>
+    <string name="btn_daftar">Daftar Warga</string>
+    <string name="title_activity_home_user">HomeUserActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_rt">HomeRTActivity</string>
+    <string name="title_activity_home_kelurahan">HomeKelurahanActivity</string>
+
+    <string-array name="spinner">
+        <item>-----------</item>
+        <item>Tulis Alamat yang lengkap dan jelas</item>
+        <item>Fotonya harus HD</item>
+    </string-array>
+</resources>

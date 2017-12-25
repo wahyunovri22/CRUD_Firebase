@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.cia.esuratuser.Activity.PilihKtpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_nama_ktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="@string/nama"
+        android:hint="@string/nama"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edt_tempat_lahir_ktp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Tempat Lahir"
+                android:hint="Tempat Lahir"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edt_ttl_ktp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="20dp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="Tanggal Lahir"
+                android:hint="Tanggal Lahir"/>
+        </LinearLayout>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_jkelamin_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Jenis kelamin"
+            android:hint="Jeis Kelamin"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_goldarah_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Alamat"
+            android:hint="Alamat"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_alamat_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Gol Darah"
+            android:hint="Gol Darah"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_agama_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Agama"
+            android:hint="Agama"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_status_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Status"
+            android:hint="Status"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_pekerjaan_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Pekerjaan"
+            android:hint="Pekerjaan"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_kewarganegaraan_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="Kewarganegaraan"
+            android:hint="Kewarganegaraan"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edt_email_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:met_floatingLabel="highlight"
+            app:met_floatingLabelText="email"
+            android:hint="email"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/image_profil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="38dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <Button
+                android:id="@+id/btn_pilih"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uploud_foto"
+                android:layout_marginTop="25dp"
+                android:layout_alignTop="@+id/image_profil"
+                android:layout_toRightOf="@+id/image_profil"
+                android:layout_toEndOf="@+id/image_profil"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_daftar_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="daftar ktp"/>
+    </LinearLayout>
+</ScrollView>

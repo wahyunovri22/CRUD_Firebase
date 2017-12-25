@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "441552422644",
+    "firebase_url": "https://esurat-4aba0.firebaseio.com",
+    "project_id": "esurat-4aba0",
+    "storage_bucket": "esurat-4aba0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441552422644:android:7c32855ee257916f",
+        "android_client_info": {
+          "package_name": "com.example.cia.esuratuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441552422644-scj4f20ht8chars6hp26eqnb6tsn4nr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cia.esuratuser",
+            "certificate_hash": "69eb77833d5ec916f17168d6ae2bad2dd9ff5a5a"
+          }
+        },
+        {
+          "client_id": "441552422644-3pb4638ubrrhol1c0nim9htctin8eh36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWrrimM2cthhixxD0q6OGbO9nLvPAeaCM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441552422644-3pb4638ubrrhol1c0nim9htctin8eh36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
